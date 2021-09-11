@@ -1,8 +1,6 @@
-#define DELAY_TIME 1000
-
 void blink_twice(void);
 
-int value = 0, new_time = 0;
+int value = 0, old_value = 0;
 
 void setup() {
   pinMode(13, OUTPUT);
@@ -22,8 +20,11 @@ void loop() {
       blink_twice();
       break; 
   }
-  Serial.println(value);
-  delay(100);
+  if (value != old_value) {
+    Serial.println((char)value);
+    old_value = value;
+  }
+    
 }
 
 void blink_twice(void) {
@@ -33,7 +34,6 @@ void blink_twice(void) {
     delay(100);
   }
 }
-
 
 /* Task
  * 1. see function blink_twice

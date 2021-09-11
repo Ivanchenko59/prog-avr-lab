@@ -1,6 +1,8 @@
 #define DELAY_TIME 1000
 
-int count = 0, new_time = 0;
+int count = 0;
+unsigned long new_time = 0;
+uint8_t flag = 0, old_flag = 0;
 
 void setup() {
   pinMode(13, OUTPUT);
@@ -16,11 +18,16 @@ void loop() {
   
   if (!(count % 2)) {
     digitalWrite(13, HIGH);
-    Serial.println("Led ON");
+    flag = 1;
   }
   else {
     digitalWrite(13, LOW);
-    Serial.println("Led OFF");
+    flag = 0;
+  }
+
+  if (flag != old_flag) {
+    (flag) ? Serial.println("Led ON") : Serial.println("Led OFF");
+    old_flag = flag;
   }
 }
 

@@ -13,16 +13,19 @@ void setup() {
 
 void loop() {
 
-  rand_val = random(300, 900);
+  rand_val = random(MIN_FREQ, MAX_FREQ);
   set_led = map(rand_val, MIN_FREQ, MAX_FREQ, 1, 7);
   
   while (curr_led != set_led) {
     
-    if (curr_led < set_led) curr_led++;
-    if (curr_led > set_led) curr_led--;
-
-    if (curr_buzz < rand_val) curr_buzz += 100;
-    if (curr_buzz > rand_val) curr_buzz -= 100;
+    if (curr_led < set_led) {
+      curr_led++;
+      curr_buzz += 100;
+    }
+    else if (curr_led > set_led) {
+      curr_led--;
+      curr_buzz -= 100;
+    }
 
     tone(BUZZ_PIN, curr_buzz);
     
@@ -32,6 +35,6 @@ void loop() {
     for (int i = curr_led + 1; i <= 7; i++) {
       PORTD &= ~(1 << i);
     }
-    delay(100);
+    delay(120);
   }
 }

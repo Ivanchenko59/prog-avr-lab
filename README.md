@@ -23,13 +23,13 @@ Attention, below are the names of EXAMPLES from the lab. These are not the names
 - [lab 1](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab1)
     - [Example 1. Veriable counter, LED and button.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab1/Task1)
     - [Example 2. Output of data from the Serial port, (Tx).](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab1/Task2)  
-    [Demo video](https://youtu.be/pjQb2NrQ2GI)
+    _**[Demo video](https://youtu.be/pjQb2NrQ2GI)**_
     - [Example 3. Data transfer to Serial port, (Rx).](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab1/Task3)  
-    [Demo video](https://youtu.be/DCOrv95y7QU)
+    _**[Demo video](https://youtu.be/DCOrv95y7QU)**_
     - [Example 4. Using 2 Serial connections, hardware and software.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab1/Task4)  
-    [Demo video](https://youtu.be/PnF7WLNBGiY)
+    _**[Demo video](https://youtu.be/PnF7WLNBGiY)**_
     - [Example 5. Using the button and piezoelectric speaker (sound).](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab1/Task5)  
-    [Demo video](https://youtu.be/WAyk3myT4kY)
+    _**[Demo video](https://youtu.be/WAyk3myT4kY)**_
     - Example 6. Changing the speed of a four-phase stepper motor (similar to the driver ULN2003) using a potentiometer.  
 
 

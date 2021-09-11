@@ -1,6 +1,7 @@
 #define DELAY_TIME 100
 
-int count = 0, new_time = 0;
+int count = 0;
+unsigned int new_time = 0;
 
 void setup() {
   pinMode(13, OUTPUT);

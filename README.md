@@ -3,6 +3,8 @@
 This repository contains laboratory work on the subject 
 "Programming microcontrollers and microcomputers"
 
+Some tasks can be slightly changed by me (towards complication). Due to the fact that the examples are executed in the simulator, I may not have some components from the simulator.
+
 ## Table of content
 >>According to the assignment, each laboratory work contains several examples, and tasks for 
 >>them. Each lab will contain folders with tasks, which will contain one file. 

@@ -30,6 +30,6 @@ Attention, below are the names of EXAMPLES from the lab. These are not the names
     _**[Demo video](https://youtu.be/PnF7WLNBGiY)**_
     - [Example 5. Using the button and piezoelectric speaker (sound).](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab1/Task5)  
     _**[Demo video](https://youtu.be/WAyk3myT4kY)**_
-    - Example 6. Changing the speed of a four-phase stepper motor (similar to the driver ULN2003) using a potentiometer.  
+    - [Example 6. Changing the speed of a four-phase stepper motor (similar to the driver ULN2003) using a potentiometer.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab1/Task6)
 
 

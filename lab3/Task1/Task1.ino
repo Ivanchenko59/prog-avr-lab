@@ -40,7 +40,8 @@ int main(void) {
     m2.inB = IN_B2;
     m2.mSpeed = 0;
     m2.mDirection = forward;
-    
+
+    m2_dir_prev
     while(1) {
 
         uint16_t pot1_val = analogRead(POT_PIN_1);
@@ -53,6 +54,10 @@ int main(void) {
         check_direction(m2, pot2_val);       
         motor_direction(m2);
         motor_speed(m2); 
+
+        if (m1.mDirection != m1_dir_prev || m2.mDirection != m2_dir_prev) {
+            
+        }
     }   
 }
 

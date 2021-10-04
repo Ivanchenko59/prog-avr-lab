@@ -3,9 +3,10 @@
 
 #define COLS 16
 #define ROWS 2
-#define SPEED 700
+#define SPEED 400
+#define BTN_PIN 7
 
-LiquidCrystal_I2C lcd(0x3F, COLS, ROWS);
+LiquidCrystal_I2C lcd(0x27, COLS, ROWS);
 
 uint8_t get_lenght(const char *str);
 void moveString(uint8_t len);
@@ -21,10 +22,13 @@ uint8_t static_str_len, run_str_len, long_str_len;
 bool flag = true;
 
 void setup() {
+
+    pinMode(BTN_PIN, INPUT_PULLUP);
     lcd.init();
     lcd.backlight();
     lcd.setCursor(0, 0);
     lcd.print(static_str);
+    
     static_str_len = get_lenght(static_str);
     long_str_len = get_lenght(long_str);
     run_str_len = get_lenght(run_str);
@@ -61,6 +65,24 @@ void loop() {
             }
         }
     }
+    
+//    if (digitalRead(BTN_PIN)) {
+//        lcd.setCursor(16, 3);
+//        lcd.print("OFF");
+//    } 
+//    else {
+//        lcd.print("ON");
+//    }
+//
+//    lcd.setCursor(0, 1);
+//    lcd.print("A0 = ");
+//    int sensorReading = analogRead(A0);
+//    lcd.print(sensorReading);
+//    if (sensorReading < 10) lcd.print("   ");
+//    else if (sensorReading < 100) lcd.print("  ");
+//    else if (sensorReading < 1000) lcd.print(" ");
+//    
+    
 }
 
 void moveString(uint8_t len) {
@@ -87,4 +109,4 @@ uint8_t get_lenght(const char *str)
         len++;
     }
     return len;     
-}
+}                                                          

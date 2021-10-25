@@ -32,10 +32,14 @@ Attention, below are the names of EXAMPLES from the lab. These are not the names
     _**[Demo video](https://youtu.be/WAyk3myT4kY)**_
     - [Example 6. Changing the speed of a four-phase stepper motor (similar to the driver ULN2003) using a potentiometer.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab1/Task6)
 
-- [lab 2](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab1)
+- [lab 2](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab2)
     - [Example 1. Servo control without the use of libraries.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab2/Task1)  
     _**[Demo video](https://youtu.be/h7xetrCC5TI)**_
     - [Example 2. Servo control using the library "Servo.h".](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab2/Task2)  
     _**[Demo video](https://youtu.be/TpBWOQfw6fk)**_
     - [Example 3. Display of numbers on the 7-segment indicator through the decoder.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab2/Task3)  
     
+- [lab 3](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab3)
+
+- [lab 4](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab4)
+    - [Example 1. Text output to lcd1602 display using the i2c library.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab4/Task1)  

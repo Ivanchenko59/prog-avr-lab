@@ -43,3 +43,10 @@ Attention, below are the names of EXAMPLES from the lab. These are not the names
 
 - [lab 4](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab4)
     - [Example 1. Text output to lcd1602 display using the i2c library.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab4/Task1)  
+- [lab 5](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab5)
+
+- [lab 6](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab6)
+    - [Example 1. Use the SD.h library to read and write SPI to a file on the SD card.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab6/Task1)  
+    _**[Demo video](https://youtu.be/I0JMaFKoiXQ)**_
+    - [Example 2. TFT display with SPI connection.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab6/Task2)  
+    _**[Demo video](https://youtu.be/dpsEr2YzUG0)**_

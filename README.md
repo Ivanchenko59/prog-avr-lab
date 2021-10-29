@@ -50,3 +50,9 @@ Attention, below are the names of EXAMPLES from the lab. These are not the names
     _**[Demo video](https://youtu.be/I0JMaFKoiXQ)**_
     - [Example 2. TFT display with SPI connection.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab6/Task2)  
     _**[Demo video](https://youtu.be/dpsEr2YzUG0)**_
+
+- [lab 7.1](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab7)
+    - [Example 1. Running string. At the end of the number indicates how many times he run.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab7/Task1)  
+    _**[Demo video](https://youtu.be/GUf45GnfNII)**_
+    - [Example 2. Running diodes. Enumeration of all options from 1111000 to 00001111.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab7/Task2)  
+    _**[Demo video](https://youtu.be/0bvK61JWpA4)**_

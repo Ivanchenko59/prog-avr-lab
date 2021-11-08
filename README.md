@@ -62,3 +62,9 @@ Attention, below are the names of EXAMPLES from the lab. These are not the names
     _**[Demo video](https://youtu.be/GUf45GnfNII)**_
     - [Example 2. Running diodes. Enumeration of all options from 1111000 to 00001111.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab7/Task2)  
     _**[Demo video](https://youtu.be/0bvK61JWpA4)**_
+    
+- [lab 8](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab8)
+    - [Example 1. 5 LEDs light up with 5 buttons.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab8/Task3)  
+    _**[Demo video](https://youtu.be/sG0pK_2dQWI)**_
+    - [Example 2. Running string with reverse by button. Blinky dots by button.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab8/Task5)  
+    _**[Demo video](https://youtu.be/FLYm90wHbZA)**_

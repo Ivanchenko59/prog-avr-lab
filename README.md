@@ -47,7 +47,7 @@ Attention, below are the names of EXAMPLES from the lab. These are not the names
 - [lab 5](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab5)
     - [Example 1. Output values from a potentiometer to a 7-segment display with decoder mode.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab5/Task1)  
     _**[Demo video](https://youtu.be/_KRdGJKw7tk)**_
-    - [Example 3. Creeping line with a run counter at the end. Decoder mode is off.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab6/Task3)  
+    - [Example 3. Creeping line with a run counter at the end. Decoder mode is off.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab5/Task3)  
     _**[Demo video](https://youtu.be/vlx8YaQytD0)**_
 
 

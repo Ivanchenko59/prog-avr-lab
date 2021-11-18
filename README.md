@@ -77,4 +77,4 @@ Attention, below are the names of EXAMPLES from the lab. These are not the names
 
 - [lab 10](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab10)
     - [Example 1. 5 Assembler code. LEDs light up with 5 buttons.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab10/Task1)  
-    _**[Demo video](https://youtu.be/KxbaqpRjzBY)**_
+    _**[Demo video](https://youtu.be/FEcq-4mHVNg)**_

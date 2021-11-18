@@ -68,3 +68,13 @@ Attention, below are the names of EXAMPLES from the lab. These are not the names
     _**[Demo video](https://youtu.be/sG0pK_2dQWI)**_
     - [Example 2. Running string with reverse by button. Blinky dots by button.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab8/Task5)  
     _**[Demo video](https://youtu.be/FLYm90wHbZA)**_
+
+- [lab 9](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab9)
+    - [Example 1. LED interrupt with different modes. Trigger signal from STM32.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab9/Task1)  
+    _**[Demo video](https://youtu.be/j64kwa_IB6E)**_
+    - [Example 2. Interrupts in the state change mode on all pins.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab9/Task2)  
+    _**[Demo video](https://youtu.be/KxbaqpRjzBY)**_
+
+- [lab 10](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab10)
+    - [Example 1. 5 Assembler code. LEDs light up with 5 buttons.](https://github.com/Ivanchenko59/prog-avr-lab/tree/main/lab10/Task1)  
+    _**[Demo video](https://youtu.be/KxbaqpRjzBY)**_
